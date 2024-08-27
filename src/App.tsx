@@ -7,7 +7,12 @@ function App() {
 
   return (
     <main>
-      hello
+      <div> 
+
+      </div>
+      <div>
+
+      </div>
     </main>
   )
 }
