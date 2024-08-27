@@ -5,6 +5,7 @@ This project showcases a smooth clip-path animation using React, enhanced with e
 ## 🚀 Tech Stack
 - ⚛️ **React**: A JavaScript library for building user interfaces.
 - 💨 **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
+- 💫 **Split-type** A simple library for breaking down words into independent character html elements 
 
 ## ✨ Features
 - 🌟 **Smooth Clip-Path Animation**: Seamless transitions between various clip-path shapes.
