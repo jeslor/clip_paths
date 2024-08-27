@@ -16,6 +16,7 @@
   clip-path: inset(10.5%);
   transition: all 0.5s;
   object-position: top;
+  margin-top: 1rem;
 }
 
 .animateClip:hover h2.split {
