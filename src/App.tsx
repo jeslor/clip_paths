@@ -36,8 +36,8 @@ function App() {
       <section className='flex w-full pt-8'>
       <div className={`h-full overflow-hidden w-1/2 relative animateClip`} > 
         <div className="absolute h-full w-full flex flex-col justify-between bg-[rgba(0,0,0,0.4)] text-slate-200 z-[2]">
-          <p className="flex items-center absolute left-6 top-[50%] [writing-mode:vertical-lr] translate-y-[-50%] uppercase font-medium text-[0.75rem]">share project</p>
-          <p className="flex items-center absolute right-6 top-[50%] [writing-mode:vertical-lr] translate-y-[-50%] uppercase font-medium text-[0.75rem]">view project</p>
+          <p className="flex items-center absolute left-6 top-[50%] [writing-mode:vertical-lr] translate-y-[-50%] uppercase font-medium text-[0.75rem] text-[#928b92d9] cursor-pointer hover:text-slate-200">share project</p>
+          <p className="flex items-center absolute right-6 top-[50%] [writing-mode:vertical-lr] translate-y-[-50%] uppercase font-medium text-[0.75rem] text-[#928b92d9] cursor-pointer hover:text-slate-200">view project</p>
           <h2 className='split exo2 font-bold text-[4rem] w-fit mx-auto flex justify-around '>Design</h2>
           <h2 className='transSplint exo2  bottom-8 text-[4rem] w-fit ml-auto mr-4 pr-8'>#987</h2>
         </div>
@@ -45,8 +45,8 @@ function App() {
       </div>
       <div className={`h-full overflow-hidden w-1/2 relative animateClip`}>
       <div className="absolute h-full w-full flex flex-col justify-between bg-[rgba(0,0,0,0.4)] text-slate-200 z-[2]">
-          <p className="flex items-center absolute left-8 top-[50%] [writing-mode:vertical-lr] translate-y-[-50%] uppercase font-medium text-[0.75rem]">share project</p>
-          <p className="flex items-center absolute right-8 top-[50%] [writing-mode:vertical-lr] translate-y-[-50%] uppercase font-medium text-[0.75rem]">view project</p>
+          <p className="flex items-center absolute left-8 top-[50%] [writing-mode:vertical-lr] translate-y-[-50%] uppercase font-medium text-[0.75rem] text-[#928b92d9] cursor-pointer hover:text-slate-200">share project</p>
+          <p className="flex items-center absolute right-8 top-[50%] [writing-mode:vertical-lr] translate-y-[-50%] uppercase font-medium text-[0.75rem] text-[#928b92d9] cursor-pointer hover:text-slate-200]">view project</p>
           <h2 className='split exo2 font-bold text-[4rem]  w-fit mx-auto'>Design</h2>
           <h2 className='transSplint exo2  bottom-8 text-[4rem] tracking-widest w-fit ml-auto mr-4 pr-8'>#640</h2>
         </div>
