@@ -18,10 +18,29 @@
   object-position: top;
 }
 
-.animateClip:hover h2 {
+.animateClip:hover h2.split {
   color: rgba(146, 139, 146, 0.85);
   transition: color 0.3s ease-in-out 0.2s;
 }
+
+.animateClip:hover h2.transSplint .char {
+  animation: rotateColor 0.5s forwards;
+}
+
+@keyframes rotateColor {
+  0% {
+    color: #f7fafc;
+    transform: rotateY(0deg);
+  }
+
+  100% {
+    color: rgba(146, 139, 146, 0.85);
+    transform: rotateY(720deg);
+    margin: 0px 0px;
+    font-size: 1rem;
+  }
+}
+
 .animateClip p {
   opacity: 0;
 }
@@ -35,7 +54,7 @@
   margin: 0px 7px;
 }
 
-.animateClip:hover .char {
+.animateClip:hover .split .char {
   margin: 0px 0px;
   transition: margin 0.5s;
 }
