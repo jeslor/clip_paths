@@ -16,5 +16,5 @@ This project showcases a smooth clip-path animation using React, enhanced with e
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/react-clip-path-animation.git
+   git clone https://github.com/jeslor/react-clip-path-animation.git
    cd react-clip-path-animation
