@@ -1,0 +1,41 @@
+.animateClip > div {
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: background-color 0.5s;
+}
+
+.animateClip:hover > div {
+  background-color: transparent;
+}
+
+.animateClip img {
+  clip-path: inset(0);
+  transition: all 0.5s;
+}
+
+.animateClip:hover img {
+  clip-path: inset(10.5%);
+  transition: all 0.5s;
+  object-position: top;
+}
+
+.animateClip:hover h2 {
+  color: rgba(146, 139, 146, 0.85);
+  transition: color 0.3s ease-in-out 0.2s;
+}
+.animateClip p {
+  opacity: 0;
+}
+
+.animateClip:hover p {
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
+.char {
+  margin: 0px 7px;
+}
+
+.animateClip:hover .char {
+  margin: 0px 0px;
+  transition: margin 0.5s;
+}

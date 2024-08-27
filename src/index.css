@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  background-color: #f7fafc;
+  background-color: #000000;
 }
 
 .exo2 {
@@ -15,7 +15,7 @@ p:after {
   content: "";
   position: absolute;
   height: 100%;
-  width: 2px;
+  width: 1px;
   top: -100%;
   margin-top: -0.7rem;
   background-color: #f7fafc;
